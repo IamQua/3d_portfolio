@@ -1,9 +1,13 @@
+
 {
   "name": "3d_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://iamqua.github.io/3d_portfolio/",
+  "homepage": "https://jberte.com",
+  "terminal.integrated.env.osx": {
+    "NPM_FLAGS": "--legacy-peer-deps"
+  },
   
   "scripts": {
     "dev": "vite",
@@ -11,7 +15,6 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
-    
   },
   
 
@@ -41,5 +44,8 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
+    
   }
+  
 }
+
