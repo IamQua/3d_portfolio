@@ -4,20 +4,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jberte.com",
-  "terminal.integrated.env.osx": {
-    "NPM_FLAGS": "--legacy-peer-deps"
-  },
+  
   
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite" ,
+    "build":"vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   
-
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.88.11",
@@ -30,6 +26,7 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.158.0"
+    
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -44,7 +41,7 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
-    
+  
   }
   
 }
